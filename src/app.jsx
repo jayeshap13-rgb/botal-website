@@ -862,7 +862,6 @@ function AdminPanel({ products, categories, orders, onSaveProduct, onResetProduc
             </label>
             {error && <p className="mt-3 text-sm font-black text-red-700">{error}</p>}
             <button className="mt-5 rounded-full bg-navyInk px-6 py-4 font-black text-white">Unlock Admin</button>
-            <p className="mt-4 text-sm font-bold text-ink/55">Default preview password: botal123</p>
           </form>
         ) : (
           <div className="mt-10 grid gap-8">
